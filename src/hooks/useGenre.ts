@@ -7,4 +7,5 @@ const useGenre = (id?: number) => {
     return genres?.results.find(g => g.id === id)
 }
 
+
 export default useGenre;
