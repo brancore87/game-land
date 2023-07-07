@@ -1,5 +1,4 @@
 import useGenres from "./useGenres";
-import ms from 'ms';
 
 
 const useGenre = (id?: number) => {
