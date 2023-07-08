@@ -9,6 +9,7 @@ const SearchInput = () => {
     const ref = useRef<HTMLInputElement>(null);
     const setSearchText = useGameQueryStore(s => s.setSearchText);
     const navigate = useNavigate();
+    if (ref.current) ref.current.value = '';
 
   return (
     <form onSubmit={(event) => {
